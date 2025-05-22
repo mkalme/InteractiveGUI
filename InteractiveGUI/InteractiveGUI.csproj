@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <UseWindowsForms>true</UseWindowsForms>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <OutputType>Library</OutputType>
+    <Platforms>AnyCPU;x64</Platforms>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\DataTypeIcons\Calendar_16x.png" />
+    <None Remove="Resources\DataTypeIcons\Font_16x.png" />
+    <None Remove="Resources\DataTypeIcons\Image_16x.png" />
+    <None Remove="Resources\DataTypeIcons\Size_16x.png" />
+    <None Remove="Resources\Icons\ColorPalette_16x.png" />
+    <None Remove="Resources\Icons\ColorWheel_16x.png" />
+    <None Remove="Resources\Icons\Edit_grey_16x.png" />
+    <None Remove="Resources\Icons\Font_16x.png" />
+  </ItemGroup>
+
+<ItemGroup>
+    <EmbeddedResource Include="Resources\DataTypeIcons\Calendar_16x.png" />
+    <EmbeddedResource Include="Resources\DataTypeIcons\Font_16x.png" />
+    <EmbeddedResource Include="Resources\DataTypeIcons\Image_16x.png" />
+    <EmbeddedResource Include="Resources\DataTypeIcons\Size_16x.png" />
+    <EmbeddedResource Include="Resources\Icons\ColorPalette_16x.png" />
+    <EmbeddedResource Include="Resources\DataTypeIcons\ColorWheel_16x.png" />
+    <EmbeddedResource Include="Resources\Icons\Edit_grey_16x.png" />
+    <EmbeddedResource Include="Resources\Icons\FolderBrowserDialogControl_16x.png" />
+    <EmbeddedResource Include="Resources\Icons\Font_16x.png" />
+</ItemGroup>
+
+</Project>
